@@ -3,11 +3,7 @@
 name: CI
 
 # Controls when the action will run. 
-on:##  ziye 
-## TG频道地址  https://t.me/ziyescript
-## TG交流群   https://t.me/joinchat/AAAAAE7XHm-q1-7Np-tF3g
-## boxjs链接  https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/ziye.boxjs.json
-
+on:##  ziye
 
 ## 新建一个库，此文件路径为 .github/workflows/ziye-sync.yml 打开教程链接 https://www.jianshu.com/p/bb82b3ad1d11 ，申请PAT（勾选时尽量全部勾选 ），找到Settings------secrets------New repository secret------name填写PAT    value填写PAT的值        
 
