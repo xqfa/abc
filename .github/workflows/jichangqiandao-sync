@@ -45,5 +45,5 @@ jobs:
         with:
           source_repo: "https://github.com/xiaocao666tzh/Airport-Checkin.git"
           source_branch: "main"
-          destination_branch: "ZIYE"
+          destination_branch: "jichangqiandao"
           github_token: ${{ secrets.PAT }}
