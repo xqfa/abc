@@ -27,7 +27,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+    types: sync-xiaocao666tzh-gitee_Airport-Checkin 
 jobs:
   repo-sync:
     env:
@@ -43,7 +43,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE.git"
+          source_repo: "https://github.com/xiaocao666tzh/Airport-Checkin.git"
           source_branch: "main"
-          destination_branch: "ZIYE"
+          destination_branch: "xiaocao666tzh"
           github_token: ${{ secrets.PAT }}
